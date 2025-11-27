@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/manager.php';
 ?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="<?= BASE_URL ?>index.php">L'Acide</a>
@@ -49,3 +50,14 @@ require_once __DIR__ . '/manager.php';
     </form>
   </div>
 </nav>
+
+<?php if (!isset($_SESSION['email'])): ?>
+<div class="container mt-2">
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    You are not registered or logged in.
+    <a href="<?= BASE_URL ?>login.php" class="alert-link">Login</a> or
+    <a href="<?= BASE_URL ?>register.php" class="alert-link">Register</a>.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+<?php endif; ?>
