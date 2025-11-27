@@ -192,7 +192,9 @@ body {
 
 .text-secondary {
     color: #6c757d !important;
+    text-decoration: none;
 }
+
 
 textarea.form-control {
     min-height: 150px;
@@ -278,4 +280,8 @@ a:hover {
 .text-break {
     word-wrap: break-word;
     word-break: break-word;
+}
+
+a.text-secondary {
+    text-decoration: none;
 }
