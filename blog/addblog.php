@@ -23,7 +23,6 @@ if($_POST)
                 $stmt = $db->prepare("INSERT INTO blog (blogtitle, blogtext, user, time, image_url) VALUES (?, ?, ?, ?, ?)");
                 $ok = $stmt->execute([
                     $title,
-                    // store as-is, escape on output
                     $text,
                     $username,
                     date("Y-m-d H:i:s"),
@@ -36,9 +35,7 @@ if($_POST)
         }
     }
 }
-
 ?>
-
 <!doctype html>
 <html lang="en">
   <head>

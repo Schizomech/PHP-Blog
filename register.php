@@ -3,7 +3,6 @@ require_once "manager.php";
 
 if($_POST)
 {
-    // POST 
     $username = trim(strip_tags($_POST["username"] ?? ''));
     $email = trim($_POST["email"] ?? '');
     $password = md5($_POST["password"] ?? '');

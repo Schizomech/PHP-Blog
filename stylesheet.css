@@ -1,14 +1,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #3e445e 0%, #5a517f 100%);
+    background: linear-gradient(135deg, #677ac5 50%, #7261b5 50%);
     min-height: 100vh;
     padding-bottom: 40px;
 }
 
 .navbar {
-    background: linear-gradient(135deg, #1c264f 0%, #544ba2 100%) !important;
+    background: linear-gradient(135deg, #253462 50%, #47418e 50%) !important;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px 0;
+    font-weight: 600;
+    color: #ffd700 !important;
+    margin-bottom: 10px;
 }
 
 .navbar-brand {
@@ -88,7 +91,7 @@ body {
 }
 
 .btn-warning {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #bf2d10 0%, #f5576c 100%);
     border: none;
     color: #ffffff;
     padding: 12px 30px;
@@ -98,7 +101,7 @@ body {
 }
 
 .btn-warning:hover {
-    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+    background: linear-gradient(135deg, #f5576c 0%, #ff2020 100%);
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(245, 87, 108, 0.3);
     color: #ffffff;
@@ -209,7 +212,7 @@ input[type="file"].image {
 }
 
 input[type="file"].image:hover {
-    border-color: #764ba2;
+    border-color: #6273e2;
     background-color: #f0f0ff;
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
 }
