@@ -6,7 +6,7 @@ require_once "manager.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>about</title>
 </head>
 <body>
     <?php include "navbar.php"?>
@@ -14,7 +14,7 @@ require_once "manager.php";
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="About_text">
-                <h1>Romeo Arisona</h1>
+                <a href="DivineIntellect.php"><h1>Romeo Arisona</h1></a>
                 <ul>
                     <li>I don't like PHP but I am learning it anyway.</li>
                     <li>This is my first proper Project with PHP.</li>

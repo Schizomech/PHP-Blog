@@ -317,8 +317,3 @@ a.text-secondary {
     margin: 10px;
     transition: transform 0.3s ease;
 }
-
-#anchorhidden {
-    color: #253462 0%;
-    margin-left: -100px;
-}
